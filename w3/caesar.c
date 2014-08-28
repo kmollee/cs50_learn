@@ -35,11 +35,11 @@ int main(int argc, string argv[])
     {
         if (plaintext[i] >= 'A' && plaintext[i] <= 'Z')
         {
-            plaintext[i] = (plaintext[i] - 'A' + key) % 26;
+            plaintext[i] = (plaintext[i] - 'A' + key) % 26 + 'A';
         }
         else if (plaintext[i] >= 'a' && plaintext[i] < 'z')
         {
-            plaintext[i] = (plaintext[i] - 'a' + key) % 26;
+            plaintext[i] = (plaintext[i] - 'a' + key) % 26 + 'a';
         }
     }
 
