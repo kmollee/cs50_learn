@@ -1,8 +1,8 @@
 filename=caesar
 compiler:
-	gcc $(filename).c cs50.c -std=c99 -o $(filename)
+	gcc $(filename).c cs50.c -std=c99 -o $(filename).exe
 run:
-	./$(filename) 1 2 3
+	./$(filename).exe
 
 gdb:
 	gdb ./$(filename)
