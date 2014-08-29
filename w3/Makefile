@@ -1,6 +1,6 @@
 filename=caesar
 compiler:
-	gcc $(filename).c cs50.c -std=c99 -o $(filename).exe
+	gcc $(filename).c -I../cs50lib -L../cs50lib -lcs50  -std=c99 -lcs50 -o $(filename).exe
 run:
 	./$(filename).exe
 
