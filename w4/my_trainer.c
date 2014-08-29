@@ -1,22 +1,13 @@
-/**
- * trainer.c
- *
- * week 4 section
- * fall 2013
- *
- * train some dolphins!
- */
-
 #include <cs50.h>
 #include <stdio.h>
 #include <stdlib.h>
 
-// prototype
-int* getAge(void);
+// remember declare function
+int* getAge();
 
-int main(int argc, char* argv[])
+int main(int argc, char const *argv[])
 {
-    // ensure user entered one and only one command-line argument
+    // only accept extra one arg
     if (argc != 2)
     {
         printf("Usage: ./trainer dolphins\n");
@@ -25,7 +16,6 @@ int main(int argc, char* argv[])
 
     // convert input to an integer
     int dolphins = atoi(argv[1]);
-
     // ensure number of dolphins is greater than 0
     if (dolphins < 1)
     {
@@ -34,6 +24,8 @@ int main(int argc, char* argv[])
     }
 
     // initalize a new array
+    // this is pointer array
+    // only accept pointer
     int* dolphin_ages[dolphins];
 
     // get ages
@@ -42,34 +34,32 @@ int main(int argc, char* argv[])
         dolphin_ages[i] = getAge();
     }
 
-    // print out oldest dolphin's age
+    //get the oldest age
     int oldest = 0;
     for (int i = 0; i < dolphins; i++)
     {
+        //if  dolphin_ages[i] older than oldest
         if (*dolphin_ages[i] > oldest)
         {
             oldest = *dolphin_ages[i];
         }
     }
+    // print out info
     printf("The oldest dolphin you are training today is %i years old!\n", oldest);
+    return 0;
 }
 
-/**
- * get the age of a dolphin
- */
-int* getAge(void)
-{
-    // initialze a variable on the heap
-    int* age = malloc(sizeof(int));
+int* getAge(){
+    /*
+    this function return int pointer
+    */
 
-    // get an age
-    do
-    {
+    // declare int pointer, and malloc the memory for it
+    int *age = malloc(sizeof(int));
+    //get the age, must be larger than 0
+    do{
         printf("How old is the dolphin (> 0)? ");
         *age = GetInt();
-    }
-    while (*age < 1);
-
-    // return the age
+    } while (*age < 1);
     return age;
 }
