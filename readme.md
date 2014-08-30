@@ -33,9 +33,16 @@
 
 [Debugging with GDB （入門篇） ](http://www.study-area.org/goldencat/debug.htm)
 
+
+## gcc compiler flow
+
+preprocessing -> compilation -> assembly -> linking
+
 ## gcc parameter
 
 轉自  http://www.wretch.cc/blog/Geniusking/7263728
+轉自  http://blog.csdn.net/zhenwenxian/article/details/6099314
+[Linux系統平台下關於GCC編譯及使用的方法 (-Werror，它要求GCC將所有的警告當成錯誤進行處理 ) ](http://blog.csdn.net/zhenwenxian/article/details/6099314)
 
 ※ 使用方式
 
@@ -58,6 +65,7 @@ gcc [option] filename
     -Wall : 顯示所有的警告訊息
     -g : 編入除錯資訊(要使用GDB除錯一定要加)
     -O2 : 做最佳化
+    -Werror，它要求GCC將所有的警告當成錯誤進行處理
 
 ※ 使用範例
 
@@ -81,3 +89,7 @@ refer https://gcc.gnu.org/ml/gcc-help/2009-02/msg00130.html
     -ggdb3 produces extra debugging information, for example: including macro
     definitions.  -ggdb by itself without specifying the level defaults to
     -ggdb2 (i.e., gdb for level 2).
+
+## Using GCC to create static and shared library .so
+
+[Using GCC to create static and shared library .so](http://blog.xuite.net/csiewap/cc/23626229-Using+GCC+to+create+static+and+shared+library+.so)
