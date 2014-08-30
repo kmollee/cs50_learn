@@ -28,3 +28,7 @@
     $ sudo cp libcs50.a /usr/local/lib 
 
     $ gcc adder.c -I/usr/local/include -L/usr/local/lib -lcs50 -o adder 
+
+## gdb debug tool
+
+[Debugging with GDB （入門篇） ](http://www.study-area.org/goldencat/debug.htm)
