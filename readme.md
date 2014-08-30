@@ -68,3 +68,16 @@ Example:
     gcc -Iinclude -Llibrary -lmy_lib -o test1 test1.c
     gcc -DDEBUG_ON -o test2 test2.c
     gcc -c -o test3 test.c
+
+### use gdb, gcc need use -g parameter
+
+refer https://gcc.gnu.org/ml/gcc-help/2009-02/msg00130.html
+
+    -g produces debugging information in the OS¹s native format (stabs, COFF,
+    XCOFF, or DWARF 2).
+
+    -ggdb produces debugging information specifically intended for gdb.
+
+    -ggdb3 produces extra debugging information, for example: including macro
+    definitions.  -ggdb by itself without specifying the level defaults to
+    -ggdb2 (i.e., gdb for level 2).
