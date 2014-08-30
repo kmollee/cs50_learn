@@ -32,3 +32,39 @@
 ## gdb debug tool
 
 [Debugging with GDB （入門篇） ](http://www.study-area.org/goldencat/debug.htm)
+
+## gcc parameter
+
+轉自  http://www.wretch.cc/blog/Geniusking/7263728
+
+※ 使用方式
+
+gcc [option] filename
+
+※ 選項
+
+    -c : 只做編譯(不做連結)
+    -S : 輸出組譯碼
+    -E : 將預處理結果顯示
+    -o filename : 指定輸出檔名
+    -ansi : 程式要求依據ansi c標準
+    -Dmacro : 使定義巨集(marco)為有效
+    -Dmarco=defn : 使定義巨集(marco)為defn
+    -Wa,option : 將選項(option)傳給組譯器
+    -wl,option : 將選項(option)傳給連結器
+    -I : 追加include檔案的搜尋路徑
+    -L : 追加library檔案的搜尋路徑
+    -l : 指定連結的函式庫
+    -Wall : 顯示所有的警告訊息
+    -g : 編入除錯資訊(要使用GDB除錯一定要加)
+    -O2 : 做最佳化
+
+※ 使用範例
+
+Example:
+
+    gcc -o file a.c b.c c.c
+    gcc -Wall -g -o test test.c
+    gcc -Iinclude -Llibrary -lmy_lib -o test1 test1.c
+    gcc -DDEBUG_ON -o test2 test2.c
+    gcc -c -o test3 test.c
