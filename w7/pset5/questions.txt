@@ -1,17 +1,37 @@
-0.  TODO
-1.  TODO
-2.  TODO
-3.  TODO
+0.  How many different colors does each format support?
+
+refer
+    http://www.ou.edu/class/digitalmedia/articles/CompressionMethods_Gif_Jpeg_PNG.html
+    http://www.mywebsite.force9.co.uk/png/
+GIF
+    256 colors
+JPEG
+    16 million colors
+BMP
+    depend on format 1, 2, 4, 8, 16, 24, 32 bit
+    24 bit support 16,777,216 distinct colors
+    32 bit support 4,294,967,296 distinct colors
+PNG
+    16.7 million
+1.  Which of these formats supports animation
+
+GIF
+2.  What’s the difference between lossy and lossless compression
+3.  Which of these formats is lossy-compressed
+
+JPEG
 4.  TODO
 5.  TODO
-6.  TODO
+6.  What’s stdint.h?
+it define C data types
 7.  TODO
 8.  TODO
 9.  TODO
 10. TODO
 11. TODO
 12. TODO
-13. TODO
+13. Why might fopen return NULL in copy.c:37
+    if user have no permission to destination file will return NULL
 14. TODO
 15. TODO
 16. TODO
