@@ -1,0 +1,69 @@
+/**** STYLING LEFT AND RIGHT NAVIGATION BAR ****/
+
+.resources-navbar, .events-navbar {
+  font-family: Helvetica Neue, HelveticaNeue, Helvetica, sans-serif, Arial;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 175px;
+}
+.resources-navbar ul, .events-navbar ul {
+    list-style-type: none;
+    margin: 0px; 
+}     
+.resources-navbar ul li a, .events-navbar ul li a {
+    cursor: pointer;
+    color: #777;
+    text-decoration: none;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased; 
+}
+.resources-navbar ul li, .events-navbar ul li {
+      padding: 4px 0px; 
+}
+.resources-navbar ul li:hover a, .events-navbar ul li:hover a {
+        color: #333; 
+}
+
+/**** STYLING LEFT NAVIGATION BAR ****/
+
+.resources-navbar {
+	text-align: right; 
+}
+.resources-navbar ul {
+    padding: 20px 10px 0px 20px; 
+}
+.resources-navbar .lecturer{
+    padding: 30px 10px 0px 20px;
+    color: #777; 
+}
+.resources-navbar .lecturer a{
+      color: #777;
+      font-size: 11px;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 3px; 
+}
+
+/**** STYLING RIGHT NAVIGATION BAR ****/
+
+.events-navbar {
+	right: 0px;
+} 
+.events-navbar .other-links {
+    padding: 30px 20px 0px 10px; 
+}
+
+.events-navbar .other-links a {
+	color: #777;
+    font-size: 11px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 3px; 
+}
+.events-navbar .other-links a:hover {
+    color: #666; 
+}
+.events-navbar ul {
+    padding: 20px 20px 0px 10px; 
+}

@@ -1,0 +1,23 @@
+.facebook-notification {
+  font-family: Helvetica Neue, HelveticaNeue, Helvetica, sans-serif, Arial;
+  background-color: #FCF8E3;
+  color: #C09853;
+  padding: 8px 35px 8px 14px;
+  text-align: left;
+  border: 1px solid #FBEED5;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  font-size: 13px; 
+}
+  
+.facebook-notification a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #C09853; 
+}
+    
+.facebook-notification a:hover {
+    text-decoration: underline; 
+}
+  

@@ -1,0 +1,22 @@
+.facebook-notification{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 1px solid #FBEED5;
+    background: #FCF8E3;
+    color: #C09853;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.facebook-notification a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#C09853;
+}
+
+a:hover
+{
+    text-decoration: underline;
+    color: #FF0000;
+}

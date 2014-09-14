@@ -1,0 +1,197 @@
+header, nav, section, article, aside, footer, hgroup {
+  display: block; }
+
+a img {
+  border: 0px; }
+
+body, html {
+  margin: 0px;
+  padding: 0px;
+  font-family: Helvetica Neue, HelveticaNeue, Helvetica, sans-serif, Arial; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px;
+  padding: 0px; }
+
+.content-wrapper-outer {
+  max-width: 1550px;
+  margin: 20px auto;
+  padding: 10px 0px;
+  min-width: 1024px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px; 
+}
+ 
+.content-wrapper-inner {
+  display: block;
+  position: relative;
+  z-index: 1; 
+}
+
+.main-content {
+  padding: 30px 40px 100px 40px;
+  margin: 0px 175px;
+  background-color: white;
+  min-height: 510px; 
+}
+
+.resources-navbar, .events-navbar {
+  display: inline-block;
+  min-height: 550px;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 175px;
+  text-shadow: 0px 1px 0px white; 
+}
+
+
+.site-header {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  overflow: hidden; }
+  .site-header .logo {
+    text-decoration: none;
+    color: #333;
+    text-shadow: 0px 1px 0px #CCC;
+    margin-bottom: -27px;
+    font-size: 110px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: bottom; }
+ 
+.site-footer {
+  color: #888;
+  display: block;
+  font-size: 11px;
+  height: 95px;
+  position: relative;
+  margin-top: 15px;
+  text-align: center;
+  width: 100%;
+  z-index: 0; }
+  .site-footer a {
+    color: #666;
+    text-decoration: none; }
+    
+.header-border {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 9px;
+  z-index: 1; }
+  .header-border img {
+    vertical-align: top;
+    width: 100%; }
+
+.footer-border {
+  z-index: 1;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px; }
+  .footer-border img {
+    vertical-align: bottom;
+    width: 100%; }
+
+
+  .resources-navbar .other-links, .events-navbar .other-links {
+    padding: 30px 20px 0px 10px; }
+    .resources-navbar .other-links a, .events-navbar .other-links a {
+      color: #777;
+      font-size: 11px;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 3px; }
+      .resources-navbar .other-links a:hover, .events-navbar .other-links a:hover {
+        color: #666; }
+  .resources-navbar .lecturer, .events-navbar .lecturer {
+    padding: 30px 10px 0px 20px;
+    color: #777; }
+    .resources-navbar .lecturer a, .events-navbar .lecturer a {
+      color: #777;
+      font-size: 11px;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 3px; }
+      .resources-navbar .lecturer a:hover, .events-navbar .lecturer a:hover {
+        color: #666; }
+  .resources-navbar ul, .events-navbar ul {
+    list-style-type: none;
+    margin: 0px; }
+    .resources-navbar ul li, .events-navbar ul li {
+      padding: 4px 0px; }
+      .resources-navbar ul li a, .events-navbar ul li a {
+        cursor: pointer;
+        color: #777;
+        text-decoration: none;
+        font-size: 16px;
+        -webkit-font-smoothing: antialiased; }
+      .resources-navbar ul li:hover a, .events-navbar ul li:hover a {
+        color: #333; }
+
+.resources-navbar {
+  left: 0px;
+  text-align: right; }
+  .resources-navbar ul {
+    padding: 20px 10px 0px 20px; }
+
+.events-navbar {
+  right: 0px;
+}
+  .events-navbar ul {
+    padding: 20px 20px 0px 10px; }
+  .events-navbar h1 {
+    margin: 20px 0px -10px 0px;
+    padding: 0px 20px 0px 10px;
+    font-size: 20px;
+    color: #555; }
+
+  .main-content.center {
+    text-align: center; }
+  .main-content > * {
+    margin-bottom: 20px; }
+  .main-content .main-item {
+    margin: 30px;
+    padding: 15px;
+    display: inline-block; }
+    .main-content .main-item > * {
+      display: block;
+      max-width: 100%; }
+  .main-content .news-item {
+    padding: 15px 30px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px; }
+  .main-content .shpiel {
+    color: #777;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased; }
+
+.facebook-notification {
+  background-color: #FCF8E3;
+  color: #C09853;
+  padding: 8px 35px 8px 14px;
+  text-shadow: 0px 1px 0px white;
+  text-align: left;
+  border: 1px solid #FBEED5;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  font-size: 13px; }
+  .facebook-notification a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #C09853; }
+    .facebook-notification a:hover {
+      text-decoration: underline; }
+  .facebook-notification p {
+    margin: 0px;
+    padding: 0px;
+    line-height: 18px;
+    vertical-align: middle; }
+
+

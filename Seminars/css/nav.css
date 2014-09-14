@@ -1,0 +1,29 @@
+.resources-navbar, .events-navbar{
+    font-family: Helvetica Neue, Arial;
+    position: absolute;
+    top:0px;
+    bottom:0px;
+    width: 175 px;
+}
+
+.resources-navbar ul, .events-navbar ul{
+    list-style: none;
+    margin: 0px;
+}
+
+.resources-navbar ul li, .events-navbar ul li{
+    border: 1px solid black;
+    padding: 10px 0px;
+    margin-top: 10px;
+}
+
+.resources-navbar ul li a, .events-navbar ul li a{
+    color: #777;
+    text-decoration: none;
+    font-size: 16px;
+    -webkit-font-smoothing:antialiased;
+}
+
+.events-navbar{
+    right:5px;
+}
