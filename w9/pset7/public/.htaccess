@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+ErrorDocument 403 /w9/pset7/public/404.html
+</IfModule>
